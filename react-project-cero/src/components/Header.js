@@ -2,8 +2,21 @@ import React from 'react';
 
 function Header(){
     return(
-        <header>
-            <h1>Bienvenido</h1>
+        <header className='Header'>
+            <ul className='nav-menu'>
+                <li>
+                    Inicio
+                </li>
+                <li>
+                    Menú
+                </li>
+                <li>
+                    Contacto
+                </li>
+                <li>
+                    ¡Trabaja con nosotros!
+                </li>
+            </ul>
         </header>
     );
 }
