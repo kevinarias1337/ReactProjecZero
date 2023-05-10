@@ -2,17 +2,16 @@ import './App.css';
 import Header from './components/Header.js'
 import Content from './components/Content';
 import Slider from './components/Slider';
-import Products from './components/Products';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Router from './Router';
 
 function App() {
   return (
     <div>
       <Header />
       <Slider />
-      <Content />
-      <Products />
+      <Router />
       <Footer />
     </div>
   );
