@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Router, Link } from 'react-router-dom';
 
 class Header extends Component {
 
     render() {
         return (
-            <header className='Header'>
+            <BrowserRouter>
+                <header className='Header'>
                     <img className='Logo' src={require('../assets/PizzaLogo.png')} alt='Logo' />
                     <ul className='nav-menu'>
                         <li>
-                            Inicio
+                           <Link to='/'>Inicio</Link>
                         </li>
                         <li>
-                            Menú
+                        <Link to='/menu'>Menu</Link>
                         </li>
                         <li>
-                            Contacto
+                        <Link to='/contact'>Contacto</Link>
                         </li>
                         <li>
-                            ¡Trabaja con nosotros!
+                        <Link to='/workwithus'>¡Trabaja con nosotros!</Link>
                         </li>
                     </ul>
                     <div className='clearfix'></div>
-            </header>
+                </header>
+            </BrowserRouter>
         );
     }
 }

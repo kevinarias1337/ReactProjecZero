@@ -1,0 +1,30 @@
+[33mcommit 37b76e3de2fd7939ef165e1b6d44c0a2e0a82504[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: kevinarias1337 <kevinlh1337@gmail.com>
+Date:   Wed May 10 10:20:39 2023 -0500
+
+    Se agrega el contenido y el footer a la web y se
+    implementa un Slider Gallery con la lib Framer Motion
+
+[33mcommit b71e53889c1a60da2f9f5afaf7614b77abf42afb[m
+Author: kevinarias1337 <kevinlh1337@gmail.com>
+Date:   Tue May 9 22:45:48 2023 -0500
+
+    Se agrega un Logo en el header y se crean y estilan los componentes: Slider, Content y Products
+
+[33mcommit 264b6dfa84cf82898bbbc924be5041ff4c161840[m
+Author: kevinarias1337 <kevinlh1337@gmail.com>
+Date:   Tue May 9 18:36:24 2023 -0500
+
+    Se hace el diseño del header con CSS
+
+[33mcommit a468bd97c5f2178401c40e11dce8cd2b3aca5732[m
+Author: kevinarias1337 <kevinlh1337@gmail.com>
+Date:   Tue May 9 17:04:15 2023 -0500
+
+    Se hace un push del proyecto nuevo con un componente Header
+
+[33mcommit c21f265e2d94453d42252fd491ad33194cccc7d6[m
+Author: kevinarias1337 <54506222+kevinarias1337@users.noreply.github.com>
+Date:   Tue May 9 16:56:59 2023 -0500
+
+    Initial commit
