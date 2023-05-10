@@ -149,3 +149,14 @@
   border-top: 1px solid rgb(99, 99, 99);
   margin-top: 50px;
 }
+
+.Error-Content{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+
+.Error-Icon{
+  width: 150px;
+  margin-bottom: 220px;
+}

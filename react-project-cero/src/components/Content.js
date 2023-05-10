@@ -6,6 +6,10 @@ class Content extends Component {
     render() {
         return (
             <React.Fragment>
+                <div className="Slider">
+                    <h1>Bienvenido, ¡reserva tu mesa ahora!</h1>
+                    <a className="btn-white" href="#">Reservar</a>
+                </div>
                 <div className="Products">
                     <h2>Nuestros productos</h2>
                     <motion.div className="Gallery-Container">
