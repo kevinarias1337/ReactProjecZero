@@ -2,20 +2,20 @@ import React, { Component } from "react";
 import Gallery from "./Gallery";
 import { motion } from 'framer-motion'
 
-class Content extends Component {
-    render() {
-        return (
-            <React.Fragment>
-                <div className="Slider">
-                    <h1>Bienvenido, ¡reserva tu mesa ahora!</h1>
-                    <a className="btn-white" href="#">Reservar</a>
-                </div>
+const Content = () => {
+    return (
+        <React.Fragment>
+            <div className="Slider">
+                <h1>Bienvenido, ¡reserva tu mesa ahora!</h1>
+                <a className="btn-white" to="#">Reservar</a>
+            </div>
+            <div className="Container-Content">
                 <div className="Products">
                     <h2>Nuestros productos</h2>
                     <motion.div className="Gallery-Container">
                         <motion.div className="Gallery-Slider" drag='x' dragConstraints={{ right: 0, left: -2758 }}>
-                            {Gallery.map(pic =>
-                            (<motion.div className="Gallery-Item">
+                            {Gallery.map((pic, index) =>
+                            (<motion.div key={index} className="Gallery-Item">
                                 <img src={pic} alt=""></img>
                             </motion.div>))
                             }
@@ -32,9 +32,10 @@ class Content extends Component {
                     </p>
                     <div className="clearfix"></div>
                 </div>
-            </React.Fragment>
-        );
-    }
+            </div>
+        </React.Fragment>
+    );
+
 }
 
 export default Content;
